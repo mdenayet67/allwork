@@ -1,0 +1,31 @@
+h1{
+    color: brown;
+}
+body{
+    background-color: aliceblue;
+    background-image:url(background/background.jpg);
+    
+    
+}
+
+.place1{
+    width: 1750px;
+    height: 400px;
+    background-color: aliceblue;
+}
+
+
+#p1{
+    color:black;
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 8px;
+}
+.place2{
+    height:100px ;
+    width: 200px;
+    background-color: aqua;
+    border-width: 10px;
+}
+

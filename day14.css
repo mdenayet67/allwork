@@ -1,0 +1,115 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color:rgba(197, 206, 215, 0.892);
+}
+/* header start*/
+img{
+    height: 150px;
+    width: 150px;
+    margin-left: 0px;
+    padding: 15px;
+    position:relative;
+}
+header{
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    border: 1px solid rgb(47, 47, 47);
+}
+.navbar{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar ul  li{
+    width: 130px;
+    border: 1px solid rgb(255, 255, 255);
+    height: 40px;
+    line-height: 40px;
+    float: left;
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-weight:bolder;
+    background-color:  rgb(177, 177, 177);
+    
+    
+}
+.logo{
+     float: left;
+}
+h1{
+    font-size: 80px;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+    padding: 0%;
+    font-weight: lighter;
+    color: white;
+}
+.navbar ul  li:hover{
+    background-color: rgb(48, 48, 255);
+    
+    font-size: 25px;
+    
+
+  a{
+    color: white;
+  }
+ 
+  
+}
+.navbar ul ul{
+    display:none;
+}
+.navbar ul li:hover> ul{
+    display: block ;
+}
+a{
+    text-decoration: none;
+}
+/*header end*/
+/*form start*/
+.form1{
+    text-align: center;
+    margin: 0px auto;
+    background-color: cornflowerblue;
+    width:fit-content;
+    height: fit-content;
+    padding: 20px 60px;
+    font-size: 35px;
+    border-radius: 10px;
+    box-shadow: 2px 0 5px #282828,-2px 0 5px #282828;
+}
+.form1 input{
+    padding: 5px 20px;
+    border: 1px solid rgb(233, 155, 11);
+    border-radius: 50px;
+}
+.form1 .btn{
+    font-weight: bolder;
+}
+
+/*form start*/
+/*footer start*/
+footer{
+    position:relative;
+    bottom: 0%;
+    text-align: center;
+    background-color: rgb(32, 32, 32);
+    width: 100%;
+    padding-top:1px
+    
+}
+.fa-brands{
+    font-size: 35px;
+    color: white;
+    margin: 10px;
+}
+

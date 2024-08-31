@@ -1,0 +1,56 @@
+h1{
+    color: brown;
+}
+body{
+    background-color: aliceblue;
+    background-image:url(background/background.jpg);
+    
+    
+}
+
+.place1{
+    width: 1750px;
+    height: 410px;
+    background-color: aliceblue;
+}
+
+
+#p1{
+    color:black;
+    text-transform:capitalize;
+    text-indent:30px;
+    line-height: 30px;
+    li
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+    border-radius: 8px;
+
+}
+.place2{
+    height:100px ;
+    width: 200px;
+    background-color: aqua;
+    border-width: 10px;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+    padding:20px 20px 20px 20px;
+    outline-width: 15px;
+    outline-style: solid;
+    outline-color: dimgray;
+    outline-offset:2px;
+    float: left;
+}
+img{
+    height: 200px;
+    width: 190px;
+    margin-left: 20px;
+    imag
+    
+
+}
+    
+
+

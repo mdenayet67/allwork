@@ -1,0 +1,109 @@
+.div-h{
+    position: sticky;
+    top: 0%;
+    
+
+}
+    
+
+
+.div-1{
+    border:2px solid red ;
+    width: 400px;
+    margin: auto;
+}
+.div-2{
+    border:2px solid green;
+    max-width: 400PX;
+    max-height: 100PX;
+    margin: auto;
+    overflow:auto;
+}
+.div-3{
+    width: 300px;
+    height: 180px;
+    background-color: green;
+    position: relative;
+    border-color: black;
+    border-style:solid ;
+    border-width: 1px;
+   float: left;
+}
+.div-4{
+    width: 100px;
+    height: 90px;
+    background-color:red;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    left: 0%;
+    bottom: 0%;
+    margin: auto;
+    border-radius: 50%;
+}
+.div-5{
+    width: 300px;
+    height: 180px;
+    background-color:rgba(53, 156, 246, 0.876);
+    position: relative;
+    border:1px solid black ;
+    
+    margin-left: 350px;
+}
+.div-6{
+    width: 300px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    top: 0px;
+    right:0px ;
+    left: 0px;
+    bottom: 0px;
+    margin: auto;
+    
+}
+
+h1{ 
+    text-align: center;
+    color: brown;
+    background-color: blue;
+}
+.p1{
+    padding-bottom: 500px;
+}
+.p2{
+    font-style: italic;
+    color: brown;
+    position: fixed;
+    
+    right: 0%;
+    bottom: 0%;
+    margin-right:auto;
+}
+img{
+    width: 400px;
+    position: absolute;
+    right: 10px;
+    top: 70px;
+
+    
+}
+.p4{
+    
+    
+}
+body{
+    background-image: url(rubel.jpeg);
+    mask-repeat: no-repeat;
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+.eliment::first-letter{
+    color: blue ;
+    font-size: 50px;
+}
+.eliment::after{
+    content: url(star.png);
+    overflow: ;
+}

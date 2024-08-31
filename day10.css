@@ -1,0 +1,100 @@
+img{
+    max-width: 300px;
+    max-height: 150px;
+    border: 1px solid red;
+}
+img:hover{
+    opacity:0.8;
+}
+
+
+
+
+
+.container {
+    display: flex;
+    
+}
+
+.div-1, .div-2, .div-3 {
+    width: 370px;
+    height: 180px;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+    background-color: #22ddbb;
+    text-align: center;
+    line-height: 180px;
+    margin: 10px;
+    float: left;
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.5), -5px -5px 5px rgb(0, 0, 0, 0.5);
+}
+
+.div-2 {
+    background: linear-gradient(to left, rgb(158, 13, 13), rgb(22, 22, 168));}
+span{
+    color:white;
+    background:linear-gradient(45deg, rgb(123, 43, 62),black);
+    padding: 10px;
+    
+}
+.div-3{
+background: linear-gradient(60deg, rgb(8, 214, 49), rgb(22, 22, 168));}
+
+.shadow{
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0, 0.5);
+    position: relative;
+    margin: 10px;
+    float: left;
+    padding: 20px 20px 0px 20px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0,0.5),-5px -5px 10px rgb(0, 0, 0,0.5);
+    
+}
+.shadow img{
+    width: 100%;
+    
+}
+h2{
+    margin: 0%;
+}
+.p1{
+    padding-bottom: 300px
+}
+script{
+    
+    display: flex;
+
+}
+.sprite1{
+    width: 43px;
+    height: 43px;
+    background-image: url(sprite.jpg); 
+    background-repeat: no-repeat;
+    background-position: -96px -96px;
+    border-radius: 50%;
+    transition: 0.5s;
+    line-height: 43px ;
+    float:right;
+    margin: 10px;
+}
+.sprite2{
+    width: 43px;
+    height: 43px;
+    background-image: url(sprite.jpg); 
+    background-repeat: no-repeat;
+    background-position: -213px -96px;
+    border-radius: 50%;
+    transition: 0.5s;
+    line-height: 43px ;
+    float:inline-end;
+    margin: 10px;
+}
+
+
+.sprite1:hover{
+    background-position: -96px -197px;
+}
+.sprite2:hover{
+    background-position: -218px -200px;
+}

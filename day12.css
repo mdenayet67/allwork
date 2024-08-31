@@ -1,0 +1,192 @@
+.div1{
+    height: 100px;
+    width: 200px;
+    background-image: url(arrow.png) ;
+    background-repeat: no-repeat;
+    background-position: -4px -52px;
+   
+    margin-left: 10px;
+    position: relative;
+    animation: square;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count:infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: backwards;
+    float: left;
+    
+     
+}
+@keyframes square{
+    0%{
+         
+         left: 0px;
+         right: 0px;
+         height: 100px;
+         width: 200px;
+         }
+
+    20%{
+        left: 500px;
+        right: 0px;
+        height: 100px;
+        width: 200px;
+        
+    }
+
+    80%{
+        
+        left: 0px;
+        right: 500px;
+        height: 100px;
+        width: 200px;
+        }
+
+    100%{
+        
+        left: 0px;
+        right: 0px;
+        height: 100px;
+        width: 200px;
+       }
+
+}
+.div2{
+    height: 150px;
+    width: 150px;
+    border: 10px solid;
+    margin-left: 500px;
+    float: left;
+    position:relative;
+    animation-name: animation;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-direction:alternate;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite;
+    align-items: center;
+    align-content: center;
+    border-radius: 50%;
+
+    
+}
+.div3{
+    margin-left: 40%;
+    height: 20px;
+    width: 20px
+        border: 1px solid;}
+
+@keyframes animation{
+    0%{
+      border-color: red;
+      right: 200px;
+      left: 0px;
+    }
+    25%{
+     border-color: green;
+     right: 00px;
+      left: 0px;
+    }
+    50%{
+    border-color: black;
+    right: 200px;
+      left: 0px;
+    }
+    75%{
+    border-color: blue;
+    right: 200px;
+      left: 0px;
+    }
+    100%{
+   border-color:darkgoldenrod;
+   right: 0px;
+      left: 200px;
+    }
+}
+
+
+.div4{
+  
+  background-color: navy;
+  width: 303px;
+  height: 186px;
+  font-size: 20px;
+  justify-content: ;
+  border: 1px solid;
+  flex-direction:row;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 100px;
+  text-align: center;
+  
+
+}
+
+
+
+.div5{
+  height: 60px;
+  width: 99px;
+  margin: 1px;
+  align-content: center;
+ 
+ 
+  background-color: aqua;
+}
+.div6{
+  height: 60px;
+  width: 99px;
+  margin: 1px;
+  align-content: center;
+  background-color: burlywood;
+}
+.div7{
+  height: 60px;
+  width: 99px;
+  margin: 1px;
+  align-content: center;
+  background-color: darkgreen;
+}
+.div8{
+  height: 60px;
+  width: 99px;
+  margin: 1px;
+  align-content: center;
+  background-color: aqua;
+}
+.div9{
+  height: 60px;
+  width: 99px;
+  margin: 1px;
+  align-content: center;
+  background-color:;
+}
+.div10{
+  height: 60px;
+  width: 99px;
+  margin: 1px;
+  align-content: center;
+  background-color: darkgreen;
+}
+.div11{
+  height: 60px;
+  width: 99px;
+  margin: 1px;
+  align-content: center;
+  background-color: aqua;
+}
+.div12{
+  height: 60px;
+  width: 99px;
+  margin: 1px;
+  align-content: center;
+  background-color:;
+}
+.div13{
+  height: 60px;
+  width: 99px;
+  margin: 1px;
+  align-content: center;
+  background-color: darkgreen;
+}
